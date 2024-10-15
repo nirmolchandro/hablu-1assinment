@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+// collor code
+$colorbk: #000000;
+$coloryl: #fde24f;
+$colorbg: #f8f8f8;
+$colorn: #cfbaff;
+$colorwh: #fff;
+// font weaght
+$fontwsm: 400;
+$fontwmd: 600;
+$fontwxl: 700;
+body,
+p {
+  font-size: 16px;
+  // font-weight: $fontwmd;
+}
+p {
+  margin: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fontwsm;
+  margin: 0 0 15px;
+  line-height: 1.2em;
+}
+a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+// padding
+$paddingsm: 10px 0;
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  @media (max-width: 575.98px) {
+    .container{
+      width: 90%;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .container{
+      width: 80%;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+      width: 75%;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .container{
+      width: 90%;
+    }
+  }
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.ul li{
+  display: inline-block;
+   
+}
+
+.text_center{
+  text-align: center;
+}
+
+.viwe_buy_offer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  .viw_of_btn{
+    
+    
+    button{
+      padding: 10px 15px;
+      // width: 200px;
+      font-size: 18px;
+      background-color: #000;
+      color: $colorwh;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

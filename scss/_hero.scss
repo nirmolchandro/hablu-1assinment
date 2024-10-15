@@ -1,0 +1,83 @@
+.hero_section{
+  background: url(../img/Rectangle\ 1.png), no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+  // width: 100%;
+  position: relative;
+  img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .find_offer{
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 145px;
+    h3{
+      font-size: 40px;
+      font-weight: $fontwsm;
+      margin-bottom: 20px;
+    }
+    .input_area{
+      background-color: $colorwh;
+
+      padding: 20px;
+      text-transform: capitalize;
+      select{
+        width: 175px;
+        height: 50px;
+        margin: 0 10px;
+        background: #ECECEC;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        
+      }
+      .offer_btn_grup{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin: 15px 10px;
+        
+        .ch_btn{
+          flex-basis: 75%;
+          padding: 5px 15px;
+          border-radius: 10px;
+          border: none;
+          height: 50px;
+          cursor: pointer;
+        }
+        .find_offer_btn{
+          flex-basis: 23%;
+          padding: 5px 15px;
+          border-radius: 10px;
+          border: none;
+          height: 50px;
+          cursor: pointer;
+          background: #00EBC7;
+        }
+      }
+    }
+    .zone_btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60px;
+      color: $colorwh;
+      button{
+        padding: 8px 15px;
+        border: 2px solid #ECECEC;
+        background-color: transparent;
+        font-size: 18px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: $colorwh;
+      }
+    }
+    
+  }
+
+}

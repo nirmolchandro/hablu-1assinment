@@ -1,0 +1,65 @@
+#header_aera{
+  background-color: $colorwh;
+  padding: $paddingsm;
+  align-items: center;
+  .logo{
+    display: block;
+    flex-basis: 32%;
+    img{
+      width: 200px;
+      margin-top: 15px;
+
+    }
+  }
+  
+  nav{
+    margin-top: 15px;
+    flex-basis: 32%;
+    ul{text-align: center;
+      li{
+        margin: 0 15px;
+        // padding: 20px;
+        a{
+          display: block;
+          font-size: 18px;
+          font-weight: $fontwmd;
+          color: $colorbk;
+          text-transform: capitalize;
+          &:hover{
+            color: $coloryl;
+          }
+        } 
+      }
+
+    }
+  }
+  .button_gruop{
+    text-align: right;
+    align-items: center;
+    // flex-basis: 32%;
+    .login{
+      margin: 0 10px;
+      padding: 2px 10px;
+      font-size: 18px;
+      text-transform: capitalize;
+      border-radius: 40px;
+      height: 49px;
+      width: 114px;
+      border: none;
+      cursor: pointer;
+    }
+    .get_btn{
+      width: 140px;
+      background-color: $colorbk !important;
+      color: $colorbg;
+      
+    }
+    img{
+      width: 36px;
+      object-fit: cover;
+      height: 36px;
+    }
+  }
+
+
+}

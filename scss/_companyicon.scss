@@ -1,0 +1,23 @@
+#company_icon{
+  padding: 70px 0;
+  background: $coloryl;
+  .title{
+    text-align: center;
+    h3{
+      font-size: 25px;
+      span{
+        font-style: italic;
+      }
+    }
+  }
+  .company_picon{
+    margin-top: 25px;
+    padding: 0 50px;
+    .child_icon{
+      width: 120px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
